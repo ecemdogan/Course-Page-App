@@ -1,0 +1,20 @@
+from scrapy.item import Item, Field
+
+class CardBoardItem(Item):
+    course_name = Field()
+    code = Field()
+    midterm = Field()
+    theory_hours = Field()
+    application_hours = Field()
+    local_credits = Field()
+    ects = Field()
+    prerequisities = Field()
+    course_language = Field()
+    course_type = Field()
+    course_level = Field()
+    course_coordinator = Field()
+    course_lecturers = Field()
+    course_assistants = Field()
+    course_objectives = Field()
+    learning_outcomes = Field()
+    course_description = Field()
